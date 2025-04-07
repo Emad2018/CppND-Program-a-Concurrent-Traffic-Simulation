@@ -33,4 +33,4 @@ private:
     double _speed;                                  // ego speed in m/s
 };
 
-#endif
+#endif /* VEHICLE_H */

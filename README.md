@@ -20,6 +20,11 @@ Throughout the Concurrency course, you have been developing a traffic simulation
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
+* Notes
+  * OpenCv could be installed by "sudo apt-get install -y libopencv-dev"
+  * Orignal repo has a compilation error  
+  "/home/emad/Home/Udacity/Cpp/UdacityProjects/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.h:10:52: error: expected ‘{’ before ‘<’ token"
+  this can be fixed by include <memomry> in the TrafficObject.h
 ## Basic Build Instructions
 
 1. Clone this repo.
